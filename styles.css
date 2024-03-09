@@ -123,7 +123,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 213.8px;
+    width: 220px;
     padding:7px;
 }
 
@@ -152,8 +152,8 @@ body{
 .geopos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 80px;
+    justify-content: space-around;
+    height: 180px;
     
 }
 

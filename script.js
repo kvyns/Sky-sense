@@ -3,8 +3,6 @@
 // day
 // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
-console.log(screen.height)
-console.log(screen.width)
 const date = document.querySelector('.date')
 const time = document.querySelector('.time')
 const day = document.querySelector('.day')
