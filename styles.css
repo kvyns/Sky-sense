@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+    color:#313131;
+}
+body{
+    background: #E0F9FF;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.left-box{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background: white;
+    height: 585.4px;
+    width: 413.6px;
+    border-radius: 35px;
+}
+    
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search-bar input{
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.search-button img{
+    margin:5px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.weather-icon img{
+    height: 165.8px;
+}
+
+.city-name{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.weather-status{
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.temp{
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+.real-feel{
+    font-size: 10px;
+    font-weight: 700;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-part{
+    display: flex;
+}
+
+.center-box{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background: white;
+    height: 347px;
+    width: 510px;
+    border-radius: 35px;
+}
+
+.date-time{
+    text-align: center;
+}
+
+.date .day{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.time{
+    font-size: 62.4px;
+    font-weight: 700;
+}
+
+
+.essentials-dash{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.row-1, .row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.more-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 213.8px;
+    padding:7px;
+}
+
+.prop{
+    font-size: 15.1px;
+    font-weight: 400;
+}
+
+.value{
+    padding-top:8px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.right-box{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background: white;
+    height: 347px;
+    width: 206.6px;
+    border-radius: 35px;
+}
+.geopos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    
+}
+
+.latitude, .longitude{
+    text-align: center;
+    padding-top: 2;
+}
+
+.bottom-box{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background: white;
+    height: 195.1px;
+    border-radius: 35px;
+}
+
+.icon img{
+    height: 60px;
+    margin-right:10px;
+}
+
+.ll-icon img{
+    height: 100px;
+}

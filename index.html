@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woard</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+        <div class="left-section">
+            <div class="left-box">
+                <div class="search-bar">
+                  <div class="city-input">
+                    <input
+                      type="text"
+                      placeholder="Enter City Name"
+                      spellcheck="false" id = 'city'
+                    />
+                  </div>
+                  <div class="search-button"><img src = "magnify.png"></div>
+                </div>
+                <div class="city-name">Ropar</div>
+                <div class="weather-icon">
+                  <img
+                    src="modern_weather_icons/weather_icons_dovora_interactive/PNG/512/day_clear.png"
+                  />
+                </div>
+                <div class="weather-status">Clear</div>
+                <div class="temp">20°C</div>
+                <div class="real-feel">Feels like 18°C</div>
+              </div>
+        </div>
+        <div class="right-section">
+            <div class="upper-part">
+                <div class="center-box">
+                    <div class="date-time">
+                      <div class="date">7 March</div>
+                      <div class="time">18:55</div>
+                      <div class="day">Thursday</div>
+                    </div>
+                    <div class="essentials-dash">
+                        <div class="row-1">
+                            <div class = "more-details" id="item-1">
+                                <div class="icon"><img src = "assets/humidity.png"></div>
+                                <div class="info">
+                                  <div class="prop">
+                                      Humidity
+                                  </div>
+                                  <div class="value" id="humidity">
+                                      25%
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="more-details" id="item-2">
+                              <div class="icon"><img src = "assets/wind_speed.png"></div>
+                              <div class="info">
+                                <div class="prop">
+                                    Wind Speed
+                                </div>
+                                <div class="value" id="windSpeed">
+                                    7 km/h
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row-2">
+                            <div class="more-details" id="item-3">
+                                <div class="icon"><img src = "assets/min_temp.png"></div>
+                                <div class="info">
+                                  <div class="prop">
+                                      Min Temp
+                                  </div>
+                                  <div class="value" id="minTemp">
+                                      3°C
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="more-details" id="item-4" id="maxTemp">
+                              <div class="icon"><img src = "assets/max_temp.png"></div>
+                              <div class="info">
+                                <div class="prop">
+                                    Max Temp
+                                </div>
+                                <div class="value" id="maxTemp">
+                                    25°C
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="ll-icon"><img src = "assets/geo.png"></div>
+                    <div class="geopos">
+                        <div class="latitude">
+                            <div class="prop">Latitude</div>
+                            <div class="value" id = "latitude">76.5331°</div>
+                        </div>
+                        <div class="longitude">
+                            <div class="prop">Longitude</div>
+                            <div class="value" id = "longitude">76.5331°</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-part">
+                <div class="bottom-box">
+                    Coming Soon
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src = "script.js"></script>
+</html>
